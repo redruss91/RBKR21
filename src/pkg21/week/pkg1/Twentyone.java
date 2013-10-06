@@ -20,7 +20,20 @@ public class Twentyone{
     public static void main(String[] args) {
         Twentyone myGame = new Twentyone();
         myGame.getName();
-        myGame.displayHelp();        
+        myGame.displayHelp();
+        
+        cardvalue onehand = new cardvalue();
+        onehand.firsthand();
+        onehand.displayhandone();
+        
+        cardvaluetwo twohand = new cardvaluetwo();
+        twohand.secondhand();
+        twohand.displayhandtwo();
+        
+        comparison compare = new comparison();
+        compare.playercomp();
+        
+        
     }
 
 public void getName() {
