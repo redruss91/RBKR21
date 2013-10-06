@@ -12,8 +12,8 @@ import java.util.Scanner;
  */
 public class Twentyone{
     String name;
-    String instructions = "Players have to try to get as close to twentyone\n"
-            + "as possible\n"
+    String instructions = "Players have to try to get as close to 21\n"
+            + "as possible.\n"
             + "They can hit (recieve more cards) or stay (keep cards).";
 
    
@@ -31,7 +31,7 @@ this.name = input.next();
 
 
 public void displayHelp(){
-System.out.println("\nWelcome " + this.name + "\n");
+System.out.println("\nWelcome " + this.name + " to 21\n");
 System.out.println(this.instructions);
 }
 
